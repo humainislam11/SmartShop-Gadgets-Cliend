@@ -54,7 +54,7 @@ const Navbar = () => {
         }
       </ul>
     </div>
-    <a className="text-2xl font-bold">Gadget Shop</a>
+    <a className="text-2xl font-bold">Gadget-Galaxy</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-6">
