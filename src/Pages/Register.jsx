@@ -30,7 +30,7 @@ const Register = () => {
         console.log(userData);
 
         setRegisterError('')
-        if(password.length < 6){
+        if(password.length < 8){
          setRegisterError('Password should be at least 6 characters or longer ');
          return;
         }
@@ -40,6 +40,12 @@ const Register = () => {
         }
         else if (!/[a-z]/.test(password)){
           setRegisterError('Your Password should have at least one Lower case characters.');
+          return;
+        }else if (!/[0-9]/.test(password)){
+          setRegisterError('Your Password should have at least one number characters.');
+          return;
+        }else if (!/[@!#$%^&*(),.?":{}|<>]/.test(password)){
+          setRegisterError('Your Password should have at least one  special characters.');
           return;
         }
         

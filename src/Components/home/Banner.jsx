@@ -9,12 +9,11 @@ const Banner = () => {
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Welcome to Gadget Shop</h1>
-      <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      <h1 className="mb-5 text-5xl font-bold">Welcome to SmartShop Gadget</h1>
+      <p className="mb-5 font-semibold">
+      SmartShop Gadgets provides a curated selection of modern, practical tech accessories tailored for smart shoppers. Discover gadgets that blend style, functionality, and affordability to upgrade your everyday life.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+     
     </div>
   </div>
 </div>

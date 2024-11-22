@@ -1,0 +1,73 @@
+[
+    {
+      "review_id": 1,
+      "reviewer_name": "John Doe",
+      "rating": 4.5,
+      "review_text": "SmartShop Gadget Store offers a wide range of modern electronic gadgets. Their customer service is responsive, and they provide global shipping options.",
+      "date": "2024-11-10"
+    },
+    {
+      "review_id": 2,
+      "reviewer_name": "Jane Smith",
+      "rating": 4.0,
+      "review_text": "I purchased a smart home device from SmartShop. The product arrived on time and matched the description. However, I had to contact customer support for setup assistance, which was promptly provided.",
+      "date": "2024-11-11"
+    },
+    {
+      "review_id": 3,
+      "reviewer_name": "Mike Brown",
+      "rating": 5.0,
+      "review_text": "The online shopping experience was smooth, and the checkout process was straightforward. The gadget I ordered was well-packaged and functioned as expected.",
+      "date": "2024-11-12"
+    },
+    {
+      "review_id": 4,
+      "reviewer_name": "Emma Wilson",
+      "rating": 3.5,
+      "review_text": "I had an issue with a defective product. SmartShop's return policy was clear, and I received a replacement without any hassle.",
+      "date": "2024-11-13"
+    },
+    {
+      "review_id": 5,
+      "reviewer_name": "Chris Johnson",
+      "rating": 4.0,
+      "review_text": "The website's interface is user-friendly, making it easy to browse and find the latest gadgets. Delivery was within the promised timeframe.",
+      "date": "2024-11-14"
+    },
+    {
+      "review_id": 6,
+      "reviewer_name": "Sophia Lee",
+      "rating": 5.0,
+      "review_text": "I found SmartShop through a recommendation. The gadget I bought exceeded my expectations in quality and performance.",
+      "date": "2024-11-15"
+    },
+    {
+      "review_id": 7,
+      "reviewer_name": "David Martinez",
+      "rating": 4.5,
+      "review_text": "The product selection is impressive, covering various categories. I appreciate the detailed product descriptions and specifications provided.",
+      "date": "2024-11-16"
+    },
+    {
+      "review_id": 8,
+      "reviewer_name": "Olivia Harris",
+      "rating": 4.0,
+      "review_text": "I had a question about a product's compatibility. The customer service team was knowledgeable and provided accurate information.",
+      "date": "2024-11-17"
+    },
+    {
+      "review_id": 9,
+      "reviewer_name": "Liam Davis",
+      "rating": 4.8,
+      "review_text": "The pricing is competitive compared to other retailers. I received a discount on my first purchase, which was a pleasant surprise.",
+      "date": "2024-11-18"
+    },
+    {
+      "review_id": 10,
+      "reviewer_name": "Isabella Thomas",
+      "rating": 5.0,
+      "review_text": "The shipping was faster than expected, and the gadget was in perfect condition upon arrival. I will consider shopping here again.",
+      "date": "2024-11-19"
+    }
+  ]
+  

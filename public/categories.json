@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "category": "Smartphones",
+      "description": "Advanced mobile devices with touchscreens and apps.",
+      "image_url": "https://i.ibb.co.com/QQQM6sY/imrs.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Laptops",
+      "description": "Portable computers for work, study, and entertainment.",
+      "image_url": "https://i.ibb.co.com/q1QFhj5/236663-Framework-Laptop-13-MChin-0002.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Smartwatches",
+      "description": "Wearable devices for fitness tracking and notifications.",
+      "image_url": "https://i.ibb.co.com/MDyRFzX/images.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Tablets",
+      "description": "Compact devices for reading, gaming, and browsing.",
+      "image_url": "https://i.ibb.co.com/VCJV03g/3-XVOVO7-OWJE3-XADYWXIBWNCXW4.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Cameras",
+      "description": "Digital devices for capturing high-quality photos and videos.",
+      "image_url": "https://i.ibb.co.com/YyK8F0d/eos-r7-lifestyle-c604337a3b374a94a080d40b43f3a920.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Headphones",
+      "description": "Audio devices for immersive sound experiences.",
+      "image_url": "https://i.ibb.co.com/rx2fNLN/Original-Air-PRO-Max-Wireless-Headphone-Sport-Gaming-Bluetooth-Earphone-Noise-Canceling-Microphone-O.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Gaming Consoles",
+      "description": "Dedicated systems for video gaming.",
+      "image_url": "https://i.ibb.co.com/Rzd24KD/hero-image-fill-size-1248x702-v1702327532.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Drones",
+      "description": "Remote-controlled devices for aerial photography and fun.",
+      "image_url": "https://i.ibb.co.com/GdG9TbS/k-XUY9hyet-Vzh-Z2scw-JP7p3-1200-80.jpg"
+    },
+    {
+      "id": 9,
+      "category": "VR Headsets",
+      "description": "Devices for immersive virtual reality experiences.",
+      "image_url": "https://i.ibb.co.com/gRWrks3/images-1.jpg"
+    },
+    {
+      "id": 10,
+      "category": "Smart Home Devices",
+      "description": "Automation gadgets for enhancing home convenience and security.",
+      "image_url": "https://i.ibb.co.com/gThS2XP/images-2.jpg"
+    }
+  ]
+  

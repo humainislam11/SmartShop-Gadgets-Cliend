@@ -3,7 +3,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import Swal from 'sweetalert2';
 import { FcGoogle } from "react-icons/fc";
-import { FaGithub } from "react-icons/fa";
 import { FaEye ,FaEyeSlash } from 'react-icons/fa';
 // import { Helmet } from "react-helmet-async";
 
@@ -17,7 +16,7 @@ const Login = () => {
   // const auth = getAuth();
   // const provider = new GoogleAuthProvider()
 
-  const {Login,GoogleLogin,githubLogin} = useContext(AuthContext);
+  const {Login,GoogleLogin} = useContext(AuthContext);
   const [showPassword,setShowPassword] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
@@ -61,11 +60,7 @@ const Login = () => {
       .then()
       .catch()
     }
-    const handleGithub = () =>{
-      githubLogin()
-      .then()
-      .catch()
-    }
+    
    
     return (
         <div className="w-[470px] lg:w-full">
@@ -105,7 +100,7 @@ const Login = () => {
        
       </form>
         <button onClick={handleGoogle} className="btn bg-white w-[240px] ml-6"><FcGoogle /> Continue With Google</button>
-        <button onClick={handleGithub} className="btn bg-white w-[240px] ml-6 mt-2"><FaGithub></FaGithub>Continue With Github</button>
+       
       <p className="text-[14px] ml-8 mb-6">Do not have an Account <Link className="text-blue-600" to='/register'>Register..</Link> </p>
     </div>
   </div>
