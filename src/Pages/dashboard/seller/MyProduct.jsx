@@ -72,7 +72,7 @@ const MyProduct = () => {
       {loading && <p>Loading...</p>}
 
       {myProducts.length > 0 ? (
-        <ul className="grid grid-cols-1 lg:grid-cols-3">
+        <ul className="grid grid-cols-1 lg:grid-cols-3 gap-7">
           {myProducts.map((product) => (
             <div key={product._id} className="w-[315px] border border-black">
               <figure>

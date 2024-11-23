@@ -2,12 +2,14 @@ import { useContext } from "react";
 import { Link, NavLink} from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import useUserData from "../hooks/useUserData";
+import useMyProducts from "../hooks/useMyProducts";
 
 const Navbar = () => {
 
   const {user, LogOut} = useContext(AuthContext);
   const userData = useUserData()
-
+   const myProducts = useMyProducts();
+   
   const handleSignOut = () => {
      LogOut();
      
@@ -79,7 +81,7 @@ const Navbar = () => {
    <div className="dropdown mr-24">
   <div tabIndex={0} role="button" className="flex">
     <img title={user?. displayName} tabIndex={0} className="w-[48px] rounded-3xl h-12 mr-2" src={user ?.photoURL || "https://i.ibb.co/LRJyThk/images-1.png"} alt="photo" />
-    <div className="badge badge-secondary">{userData?.wishlist?.length}</div>
+    <div className="badge badge-secondary"> {userData?.role === "buyer" && userData?.wishlist?.length}{userData?.role === "seller" && myProducts?.length}</div>
     </div>
   <ul tabIndex={0} className="dropdown-content menu bg-red-200 rounded-box z-[1] w-52 p-2 shadow">
     <li className="text-black font-semibold"><NavLink to="/dashboard/overview">Dashboard</NavLink></li>
